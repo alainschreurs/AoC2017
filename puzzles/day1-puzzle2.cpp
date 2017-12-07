@@ -10,7 +10,6 @@ int main(int argc, char* argv[]) {
 	for (int i = 0; i < input.size(); i++) {
 		int next = input.size() / 2 + i;
 		if (next >= input.size()) next = next - input.size();
-		cout << i << " : " << next << endl;
 		if (input.at(i) == input.at(next)) {
 			total += input.at(i) - 48;
 		}

@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 	if (input.at(input.size() - 1) == input.at(0)) {
-				total += input.at(0) - 48;
+		total += input.at(0) - 48;
 	}
 	cout << total << endl;
 	return 0;
