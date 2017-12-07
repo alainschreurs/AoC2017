@@ -14,4 +14,4 @@ $(BIN_DIR)/%.exe: $(SRC_DIR)/%.cpp
 	g++ $(CPPFLAGS) $(CXXFLAGS) -o $@ $<
 	
 clean:
-	rm $(BIN_FILES)
+	rm -f $(BIN_FILES)
